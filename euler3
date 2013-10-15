@@ -1,0 +1,15 @@
+primefactor = 600851475143
+largestnumber = 1
+a = [1]
+while primefactor != 1:
+    if primefactor % largestnumber == 0:
+        primefactor = primefactor  / largestnumber
+        a.append([primefactor])
+    largestnumber = largestnumber + 1
+    
+    
+
+print largestnumber
+print a
+    
+

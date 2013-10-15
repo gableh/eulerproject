@@ -1,0 +1,15 @@
+x = range (0,1000,3)
+a= (x)
+
+    
+    
+
+y = range (0,1000,5)
+b= (y)
+
+
+a.extend(b)
+print set(a)
+print sum(set(a))
+
+
